@@ -10,6 +10,6 @@ for i in data:
     prefix_sum.append(sum_value)
 
 # 구간 합 계산 (세 번째 수부터 네 번째 수까지)
-left = 3
-right = 4
+left = 3 #(구하고자 하는 인덱스 + 1)
+right = 4 #(구하고자 하는 인덱스 + 1)
 print(prefix_sum[right] - prefix_sum[left - 1])
